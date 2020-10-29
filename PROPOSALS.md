@@ -20,3 +20,10 @@ people might add mailgun integrations with a plugin.
 2. Socket.io or other websocket implementations
 3. PostgresSQL or Cassandra
 4. Docker
+
+
+## System Requirements
+1. Should be scalable by design
+2. Should be designed to handle huge amount of load, notifications, subscribers
+3. Should have resiliency.
+4. Should be designed to support deployment on Kubernetes. 
