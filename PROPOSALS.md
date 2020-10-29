@@ -13,3 +13,10 @@ and then no need to worry about this feature.
 4. Real time notification (Notification should be sent in real time, specially for web push or websocket one).
 5. Plug and play mechanism, other developer can add plugins if they need special customization. As we will support basic API integration for email, but
 people might add mailgun integrations with a plugin.
+
+
+## Tech Stack
+1. NodeJS with Typescript
+2. Socket.io or other websocket implementations
+3. PostgresSQL or Cassandra
+4. Docker
